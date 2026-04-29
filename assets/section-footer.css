@@ -23,7 +23,7 @@
 }
 
 .site-footer.handprints .site-footer__top {
-  background-image: url('handprint.png');
+  background-image: url("handprint.png");
   background-size: cover;
 }
 
@@ -134,7 +134,7 @@
 
 @media only screen and (max-width: 1024px) {
   .site-footer__content {
-    gap: 55px;
+    gap: 75px;
   }
 
   .site-footer__linklist-item {
@@ -151,7 +151,7 @@
 
 @media only screen and (max-width: 767px) {
   .site-footer.handprints .site-footer__top {
-    background-image: url('handprint-mobile.png');
+    background-image: url("handprint-mobile.png");
   }
 
   .site-footer__content {
@@ -212,158 +212,176 @@
 
 /*new footer css*/
 footer.site-footer {
-    background-color: #182a30;
-    padding: 100px 0 40px;
+  background-color: #182a30;
+  padding: 100px 0 40px;
 }
 footer.site-footer h4.h4 {
-    color: #fff;
+  color: #fff;
 }
 footer.site-footer a {
-    color: #fff !important;
-    text-transform: capitalize;
-    font-size: 16px;
-    font-weight: 100;
+  color: #fff !important;
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 100;
 }
 footer.site-footer p.site-footer__rte {
-    color: #fff;
+  color: #fff;
 }
 footer.site-footer .footer-brand p {
-    color: #fff;
-    line-height: 30px;
+  color: #fff;
+  line-height: 30px;
 }
 footer.site-footer ul.footer-menu li {
-    padding: 5px 0;
+  padding: 5px 0;
 }
 .site-footer__item:last-of-type {
-    width: 22% !important;
-    max-width: 22% !important;
+  width: 22% !important;
+  max-width: 22% !important;
 }
 .site-footer__item.site-footer__item--one-third {
-    width: 33%;
-    max-width: 33%;
+  width: 33%;
+  max-width: 33%;
 }
 .site-footer__content {
-    justify-content: space-between;
+  justify-content: space-between;
 }
 
 footer.site-footer h4.footer-title {
-    color: #fff;
-    text-align: left;
+  color: #fff;
+  text-align: left;
 }
 footer.site-footer form input {
-    background-color: #fff;
-    border-radius: 0;
-    margin-bottom: 9px;
-    color: #000 !important;
+  background-color: #fff;
+  border-radius: 0;
+  margin-bottom: 9px;
+  color: #000 !important;
 }
 .site-footer__item.site-footer__item--one-third:nth-child(2) {
-    max-width: 50%;
-    width: 50%;
+  max-width: 50%;
+  width: 50%;
 }
 footer.site-footer form input::placeholder {
-    opacity: 1;
-    color: #000;
+  opacity: 1;
+  color: #000;
 }
 footer.site-footer form button {
-    width: 70%;
-    padding: 10px 0;
-    background-color: transparent;
-    border: 1px solid #ddd;
-    color: #fff;
-    margin-top: 12px;
+  width: 70%;
+  padding: 10px 0;
+  background-color: transparent;
+  border: 1px solid #ddd;
+  color: #fff;
+  margin-top: 12px;
 }
 .footer-newsletter {
-    text-align: left;
+  text-align: left;
 }
-footer.site-footer ul.list--inline.site-footer__social-icons.social-icons.site-footer__icon-list {
-    text-align: left;
-    margin-top: 20px;
+footer.site-footer
+  ul.list--inline.site-footer__social-icons.social-icons.site-footer__icon-list {
+  text-align: left;
+  margin-top: 20px;
 }
 .site-footer__item-inner .footer-brand {
-    text-align: center;
+  text-align: center;
 }
 .site-footer__item-inner .footer-brand p {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 .footer-brand img {
-    width: 230px;
+  width: 230px;
 }
 .site-footer__bottom {
-    background-color: #182a30;
+  background-color: #182a30;
 }
 .site-footer__bottom p {
-    color: #fff;
-    font-size: 14px;
-    font-weight: 200;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 200;
 }
 .site-footer__bottom p a {
-    color: #fff !important;
+  color: #fff !important;
 }
 .site-footer__bottom {
-    padding-bottom: 100px;
+  padding-bottom: 100px;
 }
 .site-footer__item:nth-child(2) {
-    max-width: 10%;
+  max-width: 10%;
 }
 
 .site-footer__item:nth-child(3) {
-    max-width: 12%;
+  max-width: 12%;
 }
 .site-footer__item-inner h4.footer-title {
-    font-weight: 100;
+  font-weight: 100;
 }
 .subfooter-section.border-alt-background {
-    --border-color: unset;
+  --border-color: unset;
 }
 
-@media(max-width:991px){
- footer.site-footer .footer-brand p {
+@media (max-width: 991px) {
+  footer.site-footer .footer-brand p {
     line-height: 20px;
-} 
-.site-footer__item:nth-child(2) {
+  }
+  .site-footer__item:nth-child(2) {
     max-width: 15%;
-}
-.site-footer__item:nth-child(3) {
-    max-width: 16%;
-}
+  }
+  .site-footer__item:nth-child(3) {
+    max-width: 19%;
+  }
+  .site-footer__content {
+    gap: 45px;
+  }
+  .site-footer__bottom {
+    padding-bottom: 40px;
+  }
 }
 
-@media(max-width:767px){
- footer.site-footer .footer-brand p {
+@media (max-width: 767px) {
+  footer.site-footer .footer-brand p {
     line-height: 20px;
-} 
-.site-footer__item:nth-child(2) {
-    max-width: 100%;
-    margin-top: 20px;
-}
-.site-footer__item:nth-child(3) {
-    max-width: 100%;
-}
-.site-footer__item:last-of-type {
-    width: 100%!important;
-    max-width: 100%!important;
-    margin-top: 20px;
-}
-.site-footer__bottom {
+    text-align: center;
+    padding-bottom: 40px;
+  }
+  .site-footer__item:nth-child(2) {
+    max-width: 38%;
+    margin-top: 0;
+    text-align: center;
+  }
+  .site-footer__item:nth-child(3) {
+    max-width: 48%;
+    text-align: center;
+  }
+  .site-footer__item:last-of-type {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 36px;
+  }
+  footer.site-footer a {
+    text-align: left;
+  }
+  .site-footer__bottom {
     padding-bottom: 20px;
-}
-footer.site-footer {
+  }
+  footer.site-footer {
     padding: 40px 0 40px;
-}
-footer.site-footer h4.footer-title {
+  }
+  footer.site-footer h4.footer-title {
     text-align: center;
-}
-footer.site-footer ul.list--inline.site-footer__social-icons.social-icons.site-footer__icon-list {
+  }
+  footer.site-footer
+    ul.list--inline.site-footer__social-icons.social-icons.site-footer__icon-list {
     text-align: center;
-}
-footer.site-footer form button {
+  }
+  footer.site-footer form button {
     width: 100%;
-}
-.site-footer__bottom p {
+  }
+  .site-footer__bottom p {
     text-align: center;
     line-height: 24px;
-}
-header.header.header--middle-left.header--has-menu {
+  }
+  header.header.header--middle-left.header--has-menu {
     padding: 15px 0;
-}
+  }
+  .site-footer__content {
+    gap: 0px;
+  }
 }
