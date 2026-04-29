@@ -394,23 +394,12 @@
             "description": "My mare always struggled to put muscle on even under rigorous training and showing (1.30 jumpers).  - Christy J.",
             "image2": "shopify://shop_images/buyer.png"
           }
-        },
-        "step_CmFnPL": {
-          "type": "step",
-          "settings": {
-            "image": "shopify://shop_images/star_1.png",
-            "step_label": "",
-            "title": "Noticeable difference within 3 weeks!",
-            "description": "My mare always struggled to put muscle on even under rigorous training and showing (1.30 jumpers).  - Christy J.",
-            "image2": "shopify://shop_images/buyer.png"
-          }
         }
       },
       "block_order": [
         "step_y9gi3y",
         "step_Gcbf76",
-        "step_g7Xypg",
-        "step_CmFnPL"
+        "step_g7Xypg"
       ],
       "name": "Multi Column Section",
       "settings": {
